@@ -50,6 +50,7 @@ blocks:
           # Restore dependencies from cache. This command will not fail in
           # case of a cache miss. In case of a cache hit, bundle  install will
           # complete in about a second.
+          # hello from over here
           # For more info on caching, see https://docs.semaphoreci.com/article/68-caching-dependencies
           - cache restore
           - bundle install --path vendor/bundle
